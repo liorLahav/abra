@@ -19,7 +19,7 @@ const NextWeekWeather = (props) => {
       setData(storedData);
     } else if (location.key !== undefined) {
       fetch(
-        "http://dataservice.accuweather.com/forecasts/v1/daily/5day/" +
+        "https://dataservice.accuweather.com/forecasts/v1/daily/5day/" +
           location.key +
           "?apikey=vHiCdzBf9ay1yTDR04546BFGIZDDIq4s&metric=true"
       )

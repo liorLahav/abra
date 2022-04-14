@@ -17,7 +17,7 @@ const Currentweather = (props) => {
       setData(storedData);
     } else if (location.key !== undefined) {
       fetch(
-        `http://dataservice.accuweather.com/currentconditions/v1/${location.key}?apikey=vHiCdzBf9ay1yTDR04546BFGIZDDIq4s`
+        `https://dataservice.accuweather.com/currentconditions/v1/${location.key}?apikey=vHiCdzBf9ay1yTDR04546BFGIZDDIq4s`
       )
         .then((res) => {
           return res.json();

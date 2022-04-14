@@ -5,7 +5,7 @@ const DropDown = (props) => {
   useEffect(() => {
     if (props.inputVal !== "" && props.inputVal.length > 1) {
       fetch(
-        `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=vHiCdzBf9ay1yTDR04546BFGIZDDIq4s&q=${props.inputVal}`
+        `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=vHiCdzBf9ay1yTDR04546BFGIZDDIq4s&q=${props.inputVal}`
       )
         .then((res) => {
           return res.json();
