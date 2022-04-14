@@ -1,0 +1,15 @@
+.dropDown {
+  margin-left: 14%;
+  width: 57%;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto;
+}
+.dropDown div {
+  cursor: pointer;
+  font-size: clamp(0.5rem, 2vw, 1.5rem);
+}
+.dropDown div:hover {
+  background-color: rgb(76, 174, 206);
+  font-weight: bold;
+}

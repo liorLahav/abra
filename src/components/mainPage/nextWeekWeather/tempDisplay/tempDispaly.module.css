@@ -1,0 +1,17 @@
+.tempDisplay {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tempDisplay > * {
+  margin: 0;
+}
+.tempDisplay h5 {
+  width: 100%;
+  font-size: clamp(0.5rem, 1.4vw, 1rem);
+}
+.tempDisplay p {
+  font-size: clamp(1rem, 3vw, 2rem);
+}

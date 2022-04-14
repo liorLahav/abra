@@ -1,0 +1,43 @@
+.alertBackground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(73, 70, 70, 0.378);
+}
+.Alert {
+  width: 75%;
+  height: 50%;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Alert h1 {
+  font-size: clamp(2rem, 4vw, 5rem);
+  margin-top: 10%;
+  width: 100%;
+  text-align: center;
+}
+.Alert button {
+  margin-top: 7%;
+  font-size: 1.5rem;
+  width: 40%;
+  height: 10%;
+  cursor: pointer;
+  background-color: rgb(48, 145, 177);
+  border: none;
+  border-radius: 7px;
+}
+.Alert button:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+.Alert button:active {
+  background-color: rgb(7, 219, 198);
+}

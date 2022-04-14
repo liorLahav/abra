@@ -1,0 +1,54 @@
+.searchContainer {
+  height: 10vh;
+  width: 40vw;
+  margin: 0 30vw;
+  margin-top: 1.5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.searchError {
+  background-color: rgb(209, 123, 123);
+  border: 2px solid red;
+}
+.Search {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  height: 30%;
+  box-shadow: 1px 1px 5px 5px rgb(134, 134, 134);
+}
+.Search input {
+  border-style: none;
+  height: 100%;
+  width: 80%;
+  padding-left: 3%;
+  font-size: clamp(1rem, 2vw, 2rem);
+  cursor: pointer;
+}
+.searchContainer p {
+  color: red;
+  font-size: clamp(0.7rem, 1.2vw, 1.2rem);
+  font-weight: bold;
+}
+.Search button {
+  width: 20%;
+  height: 120%;
+  border-radius: 7px;
+  background-image: url(https://www.svgrepo.com/show/14071/search.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(48, 145, 177);
+  border: none;
+}
+.Search button:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+.Search button:active {
+  background-color: rgb(7, 219, 198);
+}

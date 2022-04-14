@@ -1,0 +1,7 @@
+.Card {
+  background-color: white;
+}
+.temperature {
+  font-size: clamp(3rem, 5vw, 5rem);
+  font-weight: bold;
+}
